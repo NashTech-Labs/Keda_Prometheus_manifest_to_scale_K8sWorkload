@@ -4,10 +4,10 @@ metadata:
   name: prometheus-scaledobject
   namespace: default
   labels:
-    deploymentName: your-deployment-name
+    deploymentName: <your-deployment-name>
 spec:
   scaleTargetRef:
-    name: your-deployment-name
+    name: <your-deployment-name>
   pollingInterval: 15  
   cooldownPeriod:  30 
   minReplicaCount: 1  
